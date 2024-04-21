@@ -286,14 +286,14 @@ services:
   load_data:
     build:
       context: Ml-pipeline/data_loader
-      dockerfile: Ml-pipeline/data_loader/Dockerfile
+      dockerfile: Dockerfile
     image: load_data2
     restart: "no"
   #from dag/classificator/model_prediction_data.DockerOperator
   model_prediction_data:
     build:
       context: Ml-pipeline/model-prediction
-      dockerfile: Ml-pipeline/model-prediction/Dockerfile
+      dockerfile: Dockerfile
     image: model_prediction_data2
     restart: "no"
     ports:

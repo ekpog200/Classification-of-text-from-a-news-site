@@ -702,3 +702,112 @@ ModuleNotFoundError: No module named 'AirFlowProject'
 [2024-04-21T12:58:20.071+0000] {logging_mixin.py:188} INFO - [2024-04-21T12:58:20.070+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2024-04-21T12:58:20.106+0000] {logging_mixin.py:188} INFO - [2024-04-21T12:58:20.106+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
 [2024-04-21T12:58:20.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.138 seconds
+[2024-04-21T14:16:59.210+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:16:59.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:16:59.215+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:16:59.266+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:16:59.451+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.450+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:dag_for_news
+[2024-04-21T14:16:59.463+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.463+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:dag_for_news
+[2024-04-21T14:16:59.473+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.473+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:dag_for_news
+[2024-04-21T14:16:59.474+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.474+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:16:59.487+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.487+0000] {dag.py:3055} INFO - Creating ORM DAG for dag_for_news
+[2024-04-21T14:16:59.501+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:16:59.501+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:16:59.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.313 seconds
+[2024-04-21T14:17:30.072+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:17:30.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:17:30.077+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:17:30.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:17:30.099+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:17:30.121+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:17:30.121+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:17:30.143+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:17:30.143+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:17:30.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.093 seconds
+[2024-04-21T14:18:00.327+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:18:00.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:18:00.331+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:18:00.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:18:00.348+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:18:00.366+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:18:00.366+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:18:00.386+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:18:00.386+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:18:00.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.096 seconds
+[2024-04-21T14:18:30.566+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:18:30.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:18:30.574+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:18:30.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:18:30.593+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:18:30.615+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:18:30.615+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:18:30.636+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:18:30.636+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:18:30.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.210 seconds
+[2024-04-21T14:19:00.957+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:19:00.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:19:00.964+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:19:00.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:19:00.982+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:19:01.002+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:19:01.001+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:19:01.024+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:19:01.024+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:19:01.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.091 seconds
+[2024-04-21T14:19:31.262+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:19:31.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:19:31.276+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:19:31.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:19:31.314+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:19:31.353+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:19:31.352+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:19:31.387+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:19:31.387+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:19:31.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.156 seconds
+[2024-04-21T14:20:01.559+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:20:01.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:20:01.569+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:20:01.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:20:01.596+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:20:01.631+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:20:01.631+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:20:01.666+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:20:01.666+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:20:01.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.140 seconds
+[2024-04-21T14:20:31.938+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:20:31.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:20:31.947+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:20:31.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:20:31.981+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:20:32.024+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:20:32.024+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:20:32.066+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:20:32.066+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:20:32.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.185 seconds
+[2024-04-21T14:21:02.379+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:21:02.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:21:02.391+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:21:02.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:21:02.433+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:21:02.476+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:21:02.476+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:21:02.519+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:21:02.519+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:21:02.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.188 seconds
+[2024-04-21T14:21:33.140+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:21:33.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:21:33.147+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:21:33.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:21:33.170+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:21:33.196+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:21:33.196+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:21:33.227+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:21:33.227+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:21:33.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.120 seconds
+[2024-04-21T14:22:03.541+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:22:03.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:22:03.545+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:22:03.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:22:03.561+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:22:03.583+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:22:03.583+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:22:03.604+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:22:03.603+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:22:03.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.086 seconds
+[2024-04-21T14:22:33.790+0000] {processor.py:161} INFO - Started process (PID=666) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:22:33.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:22:33.794+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:22:33.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:22:33.812+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:22:33.833+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:22:33.833+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:22:33.859+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:22:33.859+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:22:33.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.094 seconds
+[2024-04-21T14:23:03.986+0000] {processor.py:161} INFO - Started process (PID=722) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:23:03.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:23:03.991+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:23:03.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:23:04.007+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:23:04.028+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:23:04.028+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:23:04.047+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:23:04.047+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:23:04.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.083 seconds
+[2024-04-21T14:23:34.180+0000] {processor.py:161} INFO - Started process (PID=778) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:23:34.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:23:34.184+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:23:34.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:23:34.200+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:23:34.219+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:23:34.218+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:23:34.239+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:23:34.239+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:23:34.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.080 seconds
+[2024-04-21T14:24:04.932+0000] {processor.py:161} INFO - Started process (PID=840) to work on /opt/airflow/dags/classificator.py
+[2024-04-21T14:24:04.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/classificator.py for tasks to queue
+[2024-04-21T14:24:04.936+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:24:04.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/classificator.py
+[2024-04-21T14:24:04.949+0000] {processor.py:840} INFO - DAG(s) 'dag_for_news' retrieved from /opt/airflow/dags/classificator.py
+[2024-04-21T14:24:04.967+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:24:04.967+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-21T14:24:04.988+0000] {logging_mixin.py:188} INFO - [2024-04-21T14:24:04.988+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_for_news to 2024-04-21T00:00:00+00:00, run_after=2024-04-22T00:00:00+00:00
+[2024-04-21T14:24:05.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/classificator.py took 0.076 seconds
