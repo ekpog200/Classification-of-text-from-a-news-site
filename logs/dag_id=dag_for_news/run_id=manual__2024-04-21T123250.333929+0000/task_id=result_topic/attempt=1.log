@@ -1,0 +1,16 @@
+[2024-04-21T12:35:41.138+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=dag_for_news/run_id=manual__2024-04-21T12:32:50.333929+00:00/task_id=result_topic permission to 509
+[2024-04-21T12:35:41.173+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=dag_for_news/run_id=manual__2024-04-21T12:32:50.333929+00:00/task_id=result_topic permission to 509
+[2024-04-21T12:35:41.210+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_for_news.result_topic manual__2024-04-21T12:32:50.333929+00:00 [queued]>
+[2024-04-21T12:35:41.219+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_for_news.result_topic manual__2024-04-21T12:32:50.333929+00:00 [queued]>
+[2024-04-21T12:35:41.221+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-04-21T12:35:41.233+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): result_topic> on 2024-04-21 12:32:50.333929+00:00
+[2024-04-21T12:35:41.240+0000] {standard_task_runner.py:60} INFO - Started process 309 to run task
+[2024-04-21T12:35:41.243+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_for_news', 'result_topic', 'manual__2024-04-21T12:32:50.333929+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/classificator.py', '--cfg-path', '/tmp/tmpqh445lad']
+[2024-04-21T12:35:41.247+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask result_topic
+[2024-04-21T12:35:41.297+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=dag_for_news/run_id=manual__2024-04-21T12:32:50.333929+00:00/task_id=result_topic permission to 509
+[2024-04-21T12:35:41.305+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_for_news.result_topic manual__2024-04-21T12:32:50.333929+00:00 [running]> on host 39d7336c2004
+[2024-04-21T12:35:41.385+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_for_news' AIRFLOW_CTX_TASK_ID='result_topic' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T12:32:50.333929+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-21T12:32:50.333929+00:00'
+[2024-04-21T12:35:41.398+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-04-21T12:35:41.408+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_for_news, task_id=result_topic, execution_date=20240421T123250, start_date=20240421T123541, end_date=20240421T123541
+[2024-04-21T12:35:41.464+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-21T12:35:41.481+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
